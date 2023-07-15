@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+   <!-- Remote -->
+   <remote name="lab" fetch="https://gitlab.com"/>
+   <remote name="hub" fetch="https://github.com/"/>
+
+   <!-- Trees -->
+   <project path="device/xiaomi/rosemary" name="RifatHossaN/android_device_xiaomi_rosemary" remote="hub" revision="cherish-13" clone-depth="1"/>
+   <project path="kernel/xiaomi/mt6785" name="RifatHossaN/android_kernel_xiaomi_mt6785" remote="hub" revision="lineage-20" clone-depth="1"/>
+   <project path="vendor/xiaomi/rosemary" name="RifatHossaN/android_vendor_xiaomi_rosemary" remote="hub" revision="13.0" clone-depth="1"/>
+   <project path="device/mediatek/common" name="RifatHossaN/device_mediatek_common" remote="hub" revision="thirteen" clone-depth="1"/>
+   
+   <!-- SePolicy -->
+   <project path="device/mediatek/sepolicy_vndr" name="RifatHossaN/android_device_mediatek_sepolicy_vndr" remote="hub" revision="lineage-20" clone-depth="1"/>
+   
+   <!-- Hardware -->
+   <project path="hardware/mediatek" name="RifatHossaN/android_hardware_mediatek" remote="hub" revision="lineage-20" clone-depth="1"/>
+   <project path="hardware/xiaomi" name="RifatHossaN/android_hardware_xiaomi" remote="hub" revision="lineage-20"/>
+   
+   <!-- Clang -->
+   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="lab" revision="master" clone-depth="1"/>
+   
+   <!-- Extras -->
+   <project path="vendor/mediatek/opensource" name="RifatHossaN/vendor_mediatek-opensource" remote="hub" revision="thirteen" clone-depth="1"/>
+   <project path="vendor/mediatek/interfaces" name="RifatHossaN/vendor_mediatek_interfaces" remote="hub" revision="lineage-20" clone-depth="1"/>
+
+</manifest>
