@@ -5,6 +5,9 @@
    <remote name="lab" fetch="https://gitlab.com"/>
    <remote name="hub" fetch="https://github.com/"/>
 
+   <!-- Removed -->
+   <remove-project name="android_hardware_xiaomi" />
+
    <!-- Trees -->
    <project path="device/xiaomi/rosemary" name="RifatHossaN/android_device_xiaomi_rosemary" remote="hub" revision="cherish-13" clone-depth="1"/>
    <project path="kernel/xiaomi/mt6785" name="RifatHossaN/android_kernel_xiaomi_mt6785" remote="hub" revision="lineage-20" clone-depth="1"/>
