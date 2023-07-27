@@ -6,7 +6,7 @@
    <remote name="hub" fetch="https://github.com/"/>
 
    <!-- Removed -->
-   <remove-project name="android_hardware_xiaomi" />
+   <!--remove-project name="android_hardware_xiaomi" /-->
 
    <!-- Trees -->
    <project path="device/xiaomi/rosemary" name="RifatHossaN/android_device_xiaomi_rosemary" remote="hub" revision="p404-tokui" clone-depth="1"/>
