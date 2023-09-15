@@ -7,7 +7,7 @@
 
    <!-- Trees -->
    <project path="device/xiaomi/rosemary" name="RifatHossaN/android_device_xiaomi_rosemary" remote="hub" revision="superior-13" clone-depth="1"/>
-   <project path="kernel/xiaomi/mt6785" name="RifatHossaN/android-kernel-rosemary-meaw" remote="hub" revision="main" clone-depth="1"/>
+   <project path="kernel/xiaomi/mt6785" name="RifatHossaN/android_kernel_rosemary_meowX" remote="hub" revision="13.0" clone-depth="1"/>
    <!--project path="kernel/xiaomi/mt6785" name= "RifatHossaN/android_kernel_xiaomi_mt6785" remote="hub" revision="lineage-20" clone-depth="1"/-->
    <project path="vendor/xiaomi/rosemary" name="RifatHossaN/android_vendor_xiaomi_rosemary" remote="hub" revision="13.0" clone-depth="1"/>
    <project path="device/mediatek/common" name="RifatHossaN/device_mediatek_common" remote="hub" revision="thirteen" clone-depth="1"/>
